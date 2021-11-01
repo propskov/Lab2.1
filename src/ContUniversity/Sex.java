@@ -4,6 +4,7 @@ public enum Sex {
     F("She", "Her"),
     M("He", "His");
     // Падежи метоимений i - именительный, v - винительный;
+
     private String Casei;
     private String Casev;
 

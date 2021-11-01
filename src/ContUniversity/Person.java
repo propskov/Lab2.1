@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public abstract class Person {
     // Name = first name + surname
+
     private String name;
     private Sex sex;
     private String Faculty;

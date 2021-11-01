@@ -5,6 +5,7 @@ public class Lecturer extends Person {
     private String speciality;
     public String verb;
 
+
     public Lecturer(String name, Sex sex, String Faculty, String speciality, String verb, Degree degree) {
         super(name, sex, Faculty, verb);
         setspeciality(speciality);

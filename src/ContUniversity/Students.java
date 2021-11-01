@@ -3,6 +3,7 @@ package ContUniversity;
 import javax.naming.Name;
 
 public class Students extends Person {
+
     private StudentsStage stage;
     public int course;
     private String thesis;
