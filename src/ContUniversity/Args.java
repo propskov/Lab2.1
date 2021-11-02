@@ -3,6 +3,7 @@ package ContUniversity;
 public class Args {
     public static void main(String[] args) {
         Person[] person = {
+
                 new Lecturer("Ronald Turner", Sex.M, "Computer scince", "Progamming paradigms", "teaches", Degree.PhD),
                 new Lecturer("Ruth Hollings", Sex.F, "Jurisprudence", "Domestic aritration", "teaches", Degree.MSc),
                 new Students("Leo Wilcinson", Sex.M, "Computer scince", 3, StudentsStage.Bachelor, "studies"),

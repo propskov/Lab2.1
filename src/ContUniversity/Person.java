@@ -1,10 +1,7 @@
 package ContUniversity;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public abstract class Person {
     // Name = first name + surname
+
     private String name;
     private Sex sex;
     private String Faculty;
@@ -35,7 +32,7 @@ public abstract class Person {
     }
 
     public void setSex(Sex sex) {
-        if (sex != null && !sex.equals(""))
+        if (sex != null )
             this.sex = sex;
         else
             throw new IllegalArgumentException("Пол не должен быыть пустым");
@@ -66,7 +63,7 @@ public abstract class Person {
     }
 
     public void print() {
-        System.out.println("This is " + getName() + ". " + getSex().getCasei() + " " + getVerb() + " at " + getFaculty() + ". " + getSex().getCasev() + getinf() + ".");
+        System.out.println("This is " + getName() + ". " + getSex().getCasei() + " " + getVerb() + " at " + getFaculty() + ". "  + getinf() + ".");
 
     }
 

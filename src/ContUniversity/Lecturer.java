@@ -3,7 +3,7 @@ package ContUniversity;
 public class Lecturer extends Person {
     private Degree degree;
     private String speciality;
-    public String verb;
+
 
     public Lecturer(String name, Sex sex, String Faculty, String speciality, String verb, Degree degree) {
         super(name, sex, Faculty, verb);
@@ -33,6 +33,6 @@ public class Lecturer extends Person {
 
     @Override
     public String getinf() {
-        return " has " + getDegree() + " degree in " + getSpeciality();
+        return getSex().getCasei()  + " has " + getDegree() + " degree in " + getSpeciality();
     }
 }
