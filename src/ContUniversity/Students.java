@@ -56,9 +56,9 @@ public class Students extends Person {
     @Override
     public String getinf() {
         if (course != 0)
-            return " is " + getCourse() + "'th " + "year " + getStage() + " student";
+            return getSex().getCasei() + " is " + getCourse() + "'th " + "year " + getStage() + " student";
         else
-            return " thesis title is " + thesis;
+            return getSex().getCasev() + " thesis title is " + thesis;
 
     }
 
